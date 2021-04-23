@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+@import "./homeScreen";
+@import "./resume";
+@import "./card";
+@import "./skillBar";
+@import "./closeButton";
+@import "./aboutScreen";
+@import "./servicesCard";
+@import "./contactScreen";
+@import "./message";
+@import "./projectScreen";
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/Kh8lgoX-emma-watson-hd-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+.top-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p {
+    color: #ffb135;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+
+  .hr {
+    margin-top: 30px;
+    width: 100px;
+    border: 1px solid #ffb135;
+  }
+}
+
+.subheading {
+  color: white;
+  font-size: larger;
+  width: fit-content;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-position: center;
+  }
+}

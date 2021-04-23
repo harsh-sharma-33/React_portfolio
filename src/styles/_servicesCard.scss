@@ -1,0 +1,32 @@
+.service-card {
+  display: flex;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.service-icon {
+  margin-right: 20px;
+  svg {
+    font-size: 2.5rem;
+    color: #ffb135;
+  }
+}
+
+.service-content {
+  h3 {
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .service-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,66 @@
+.resume-container {
+  overflow-y: hidden;
+}
+
+.resume {
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+  padding: 0 7%;
+}
+
+.top-resume {
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education,
+.work-experiance {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-wrap {
+  margin-top: 20px;
+  padding: 30px 50px 20px 70px;
+}
+
+.resume-section-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
+
+.programming-skills,
+.other-skills {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+// Phone
+
+@media screen and (max-width: 480px) {
+  .resume-section-1 {
+    display: block;
+  }
+  .resume-section-2 {
+    display: block;
+  }
+  .other-skills {
+    margin-top: 100px;
+  }
+
+  .card-wrap {
+    padding: 30px 30px 20px 70px;
+  }
+}

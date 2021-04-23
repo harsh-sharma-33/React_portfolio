@@ -1,0 +1,29 @@
+.skill-bar-wrapper {
+  margin-top: 50px;
+}
+
+.skill {
+  display: flex;
+  padding: 0 50px 0 0;
+  color: white;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bar {
+  position: relative;
+  width: 90%;
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.bar-overly {
+  content: "";
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #ffb135;
+}

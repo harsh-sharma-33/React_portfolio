@@ -1,0 +1,53 @@
+.card {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.s-no {
+  position: absolute;
+  left: -70px;
+  top: -10px;
+  border-radius: 50%;
+  background-color: #ffb135;
+  width: 50px;
+  height: 50px;
+
+  p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.date {
+  color: #ffb135;
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    color: white;
+  }
+  p {
+    margin-left: 10px;
+    color: #ffb135;
+    font-size: small;
+    font-weight: bold;
+  }
+
+  margin-bottom: 10px;
+}
+
+.text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  word-spacing: 3px;
+  line-height: 1.5rem;
+}

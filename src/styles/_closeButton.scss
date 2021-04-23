@@ -1,0 +1,51 @@
+.close-btn {
+  position: absolute;
+  // position: static;
+  right: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.close-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: white;
+  transform: rotate(45deg);
+  transform-origin: center;
+  height: 100%;
+  width: 2px;
+  transition: 0.4s ease-in-out;
+}
+
+.close-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: white;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  height: 100%;
+  transition: 0.4s ease-in-out;
+  width: 2px;
+}
+
+.close-btn:hover.close-btn::after {
+  transform: rotate(135deg);
+}
+
+.close-btn:hover.close-btn::before {
+  transform: rotate(225deg);
+}
+
+@media screen and (max-width: 480px) {
+  .close-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
