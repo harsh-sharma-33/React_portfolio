@@ -34,33 +34,33 @@ const ResumeScreen = () => {
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="1"
-                  dateFrom="Feb 2002"
-                  dateTo="March 2003"
+                  dateFrom="Feb 2016"
+                  dateTo="March 2017"
                   heading="High School"
-                  from="Haldwani School"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  from="Beersheba"
+                  text="C.G.P.A - 8.8"
                 />
               </motion.div>
 
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="2"
-                  dateFrom="Feb 2004"
-                  dateTo="March 2005"
+                  dateFrom="Feb 2017"
+                  dateTo="March 2018"
                   heading="Intermediate"
-                  from="Muzaffarnagar"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  from="Kendra Vidhalaya"
+                  text="Percentage Obtained - 63%"
                 />
               </motion.div>
 
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="3"
-                  dateFrom="Feb 2002"
-                  dateTo="March 2003"
+                  dateFrom="Feb 2018"
+                  dateTo="Currently Persuing"
                   heading="Bechloers of Techonology"
-                  from="Meerut"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  from="Meerut Institute of Techonology"
+                  text=""
                 />
               </motion.div>
             </div>
@@ -73,33 +73,33 @@ const ResumeScreen = () => {
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="1"
-                  dateFrom="Feb 2002"
-                  dateTo="March 2003"
-                  heading="Bechloers of Techonology"
-                  from="Meerut"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  dateFrom="2018"
+                  dateTo="2019"
+                  heading="Freelancing (Content Writing)"
+                  from="Remote"
+                  text="I've worked 1.0+ years as a content writer "
                 />
               </motion.div>
 
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="2"
-                  dateFrom="Feb 2002"
-                  dateTo="March 2003"
-                  heading="Bechloers of Techonology"
-                  from="Meerut"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  dateFrom="2019"
+                  dateTo="2020"
+                  heading="Freelancing (Developer)"
+                  from="Remote"
+                  text="I've worked 1.0+ years as a freelancer."
                 />
               </motion.div>
 
               <motion.div variants={cardVariants}>
                 <Card
                   serialNo="3"
-                  dateFrom="Feb 2002"
-                  dateTo="March 2003"
-                  heading="Bechloers of Techonology"
-                  from="Meerut"
-                  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+                  dateFrom="2020"
+                  dateTo="Present"
+                  heading="Android Developer"
+                  from="Remote"
+                  text="Working as an android developer in Digital Exchange Techonologies from past 7 months."
                 />
               </motion.div>
             </div>
@@ -112,10 +112,18 @@ const ResumeScreen = () => {
               <SubHeading text="Programming Skills" />
             </motion.div>
             <motion.div variants={cardVariants}>
-              <SkillBar skill="HTML" percentage="95" />
+              <SkillBar skill="Flutter" percentage="95" />
             </motion.div>
             <motion.div variants={cardVariants}>
-              <SkillBar skill="JavaScript" percentage="100" />
+              <SkillBar skill="Dart" percentage="90" />
+            </motion.div>
+
+            <motion.div variants={cardVariants}>
+              <SkillBar skill="C++" percentage="88" />
+            </motion.div>
+
+            <motion.div variants={cardVariants}>
+              <SkillBar skill="Java" percentage="70" />
             </motion.div>
           </div>
           <div className="other-skills">
@@ -123,7 +131,19 @@ const ResumeScreen = () => {
               <SubHeading text="Other Skills" />
             </motion.div>
             <motion.div variants={cardVariants}>
-              <SkillBar skill="JavaScript" percentage="100" />
+              <SkillBar skill="English Proficiency" percentage="95" />
+            </motion.div>
+
+            <motion.div variants={cardVariants}>
+              <SkillBar skill="Teamwork" percentage="95" />
+            </motion.div>
+
+            <motion.div variants={cardVariants}>
+              <SkillBar skill="Time Management" percentage="90" />
+            </motion.div>
+
+            <motion.div variants={cardVariants}>
+              <SkillBar skill="Critical Thinking" percentage="90" />
             </motion.div>
           </div>
         </div>
